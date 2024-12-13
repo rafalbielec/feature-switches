@@ -5,8 +5,14 @@ internal class Program
     private static async Task Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
-        var app = builder.Build();
+        builder.Logging.ClearProviders();
+        builder.Logging.AddSimpleConsole(options =>
+        {
+            options.SingleLine = true;
+            options.TimestampFormat = "yyyy-MM-dd HH:mm ";
+        });
 
+        var app = builder.Build();
         app.MapGet("/", () => string.Empty);
 
         app.MapGet("/flags/bool/{name}", (string name) =>
