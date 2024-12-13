@@ -7,9 +7,9 @@ This is an example solution which demonstrates how to use features switches / fe
 [AvaloniaILSpy](https://github.com/icsharpcode/AvaloniaILSpy/releases)
 [IlDasm2](https://github.com/lextudio/dotnet-ildasm2)
 
-# OpenFeature addresses
+# API ports
 
 - http://localhost:8080 // The API which uses the Microsoft.FeatureManagement NuGet package.
 - http://localhost:8000 // The API to provide flags for the OpenFeature client.
-- http://localhost:8001 // The client project which uses the custom ApiProvider.
+- http://localhost:8001 // The client project which uses the custom OpenFeature API provider.
 
