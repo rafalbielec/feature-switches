@@ -1,6 +1,6 @@
-# feature-switches
+# Feature switches / Feature flags
 
-Example application which demonstrates how to use features switches / features flags in .NET 9. The solution uses both the Microsoft approach to feature flags as well as the OpenFeature NuGet package.
+This is an example solution which demonstrates how to use features switches / features flags in .NET 9. The solution uses both the Microsoft approach to feature flags as well as the OpenFeature NuGet package which you can find here [OpenFeature.dev](https://openfeature.dev).
 
 ## IL disassemblers
 
