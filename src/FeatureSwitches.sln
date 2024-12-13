@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureSwitches", "FeatureSwitches\FeatureSwitches.csproj", "{D61276FF-D9D7-481C-9044-E9A0983A4DBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFeatureApp", "OpenFeatureApp\OpenFeatureApp.csproj", "{273010E0-1680-46E3-9A07-DDF1ADFE811F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFeatureProvider", "OpenFeatureProvider\OpenFeatureProvider.csproj", "{67FD94F4-B985-44EB-920F-1C4709FBC78F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{D61276FF-D9D7-481C-9044-E9A0983A4DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D61276FF-D9D7-481C-9044-E9A0983A4DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D61276FF-D9D7-481C-9044-E9A0983A4DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273010E0-1680-46E3-9A07-DDF1ADFE811F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273010E0-1680-46E3-9A07-DDF1ADFE811F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273010E0-1680-46E3-9A07-DDF1ADFE811F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273010E0-1680-46E3-9A07-DDF1ADFE811F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67FD94F4-B985-44EB-920F-1C4709FBC78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FD94F4-B985-44EB-920F-1C4709FBC78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FD94F4-B985-44EB-920F-1C4709FBC78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FD94F4-B985-44EB-920F-1C4709FBC78F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
