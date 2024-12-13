@@ -31,6 +31,10 @@ dotnet_diagnostic.CA1000.severity = warning
 dotnet_diagnostic.IDE0007.severity = warning
 # IDE0008: Use explicit type instead of 'var'
 dotnet_diagnostic.IDE0008.severity = none
+# Don't complain about async without await
+dotnet_diagnostic.CS1998.severity = none
+# Don't complain about assembly trimming
+dotnet_diagnostic.IL2104.severity = none
 
 dotnet_analyzer_diagnostic.category-roslynator.severity = suggestion
 roslynator_refactorings.enabled = true
