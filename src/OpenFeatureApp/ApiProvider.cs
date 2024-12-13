@@ -6,7 +6,7 @@ namespace OpenFeatureApp;
 
 public sealed class ApiProvider(string baseUri) : FeatureProvider
 {
-    private static string Name => "API Feature Provider";
+    private const string Name = "API Feature Provider";
 
     public interface IFlagsApi
     {
