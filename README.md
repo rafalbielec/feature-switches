@@ -9,7 +9,7 @@ Example application which demonstrates how to use features switches / features f
 
 # OpenFeature addresses
 
-- https://localhost:8080 // The API which uses the Microsoft.FeatureManagement NuGet package.
+- http://localhost:8080 // The API which uses the Microsoft.FeatureManagement NuGet package.
 - http://localhost:8000 // The API to provide flags for the OpenFeature client.
 - http://localhost:8001 // The client project which uses the custom ApiProvider.
 
