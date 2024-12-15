@@ -18,7 +18,7 @@
         <PackageReference Include="Microsoft.FeatureManagement" Version="4.0.0" />
     </ItemGroup>
     <ItemGroup>
-        <RuntimeHostConfigurationOption Include="FeatureOne" Value="false" Trim="true" />
+        <RuntimeHostConfigurationOption Include="FeatureOne" Value="true" Trim="true" />
         <RuntimeHostConfigurationOption Include="FeatureTwo" Value="false" Trim="true" />
     </ItemGroup>
 </Project>
