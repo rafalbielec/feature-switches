@@ -2,6 +2,10 @@
 
 This is an example solution which demonstrates how to use features switches / features flags in .NET 9. The solution uses both the Microsoft approach to feature flags as well as the OpenFeature NuGet package which you can find here: [OpenFeature.dev](https://openfeature.dev).
 
+## The article
+
+The blog article for this solution is located at [https://rafalbielec.com/blog/02_feature_switches](https://rafalbielec.com/blog/02_feature_switches).
+
 ## API URLs
 
 - http://localhost:8080 // The API which uses the Microsoft.FeatureManagement NuGet package.
